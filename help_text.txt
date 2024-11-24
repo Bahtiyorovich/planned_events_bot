@@ -1,0 +1,37 @@
+1. Botga kirish
+Botni boshlash uchun /start buyrug‘ini yuboring.
+Bu buyruq bot haqida umumiy ma‘lumot beradi va foydalanishingiz mumkin bo‘lgan buyruqlar ro‘yxatini taqdim etadi.
+
+2. Tadbir qo‘shish
+Tadbirni qo‘shish uchun /add buyrug‘ini yuboring.
+Format:
+/add Tadbir nomi | YYYY-MM-DD HH:MM
+Misol:
+/add Do'stlar uchrashuvi | 2024-11-25 18:00
+Bot tadbirni saqlaydi va belgilangan vaqtdan 5 daqiqa oldin sizga eslatadi.
+
+3. Tadbirlar ro‘yxatini ko‘rish
+Rejalashtirilgan barcha tadbirlaringizni ko‘rish uchun /list buyrug‘ini yuboring.
+Bot sizga jadvalingizni yuboradi:
+
+Sizning tadbirlaringiz:
+- Do'stlar uchrashuvi (2024-11-25 18:00)
+- Ish yig'ilishi (2024-11-30 09:30)
+
+4. Tadbirni o‘chirish
+Rejalashtirilgan tadbirni o‘chirish uchun /delete buyrug‘ini yuboring.
+Agar barcha tadbirlarni o'chirmoqchi bo'lsangiz: /delete_all ni yuboring
+ID bu /list buyrug‘ida har bir tadbir bilan birga ko‘rsatiladigan raqam.
+Misol:
+Agar ro‘yxat shunday bo‘lsa:
+1 - Do'stlar uchrashuvi (2024-11-25 18:00)
+2 - Ish yig'ilishi (2024-11-30 09:30)
+Siz uchrashuvni o‘chirish uchun shunday yozishingiz kerak: /delete {tadbir raqami}
+
+5. Eslatmalar
+Bot tadbirni boshlashdan 5 daqiqa oldin avtomatik ravishda sizga xabar yuboradi:
+📅 Eslatma: Do'stlar uchrashuvi tadbiri 5 daqiqadan so'ng boshlanadi!
+
+Qo‘shimcha ma‘lumot
+Tadbirlarni rejalashtirish vaqti 24 soatlik formatda bo‘lishi kerak.
+Ma‘lumotlaringiz xavfsiz saqlanadi va faqat siz ko‘ra olasiz.
